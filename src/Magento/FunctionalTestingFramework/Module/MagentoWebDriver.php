@@ -52,8 +52,6 @@ class MagentoWebDriver extends WebDriver
         '//div[@data-role="spinner"]'
     ];
 
-    const STEP_OBJ_BACKTRACE_POS = 2;
-
     /**
      * The module required fields, to be set in the suite .yml configuration file.
      *
