@@ -54,7 +54,7 @@ class CredentialStore
     private function __construct()
     {
         $this->readInCredentialsFile();
-        $this->iv = openssl_random_pseudo_bytes(16);
+        $this->iv = base64_encode(openssl_random_pseudo_bytes(16));
     }
 
     /**
